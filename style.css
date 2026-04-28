@@ -201,11 +201,10 @@ main {
   .info-card {
     min-height: 120px;
   }
-
-  .info-card .icon {
-    font-size: 2.1rem;
-  }
-
+.info-icon {
+  width: 64px;
+  height: 64px;
+}
   .info-card span {
     font-size: 0.95rem;
   }
@@ -308,13 +307,21 @@ main {
 }
 
 @media (max-width: 760px) {
-  .kairan-item {
-    grid-template-columns: 1fr;
-    gap: 8px;
+  .info-icon {
+    width: 64px;
+    height: 64px;
   }
+}
 
   .button-link {
     width: 100%;
     text-align: center;
   }
+}
+
+.info-icon {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  display: block;
 }
