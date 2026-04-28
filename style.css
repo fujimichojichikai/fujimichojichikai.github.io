@@ -106,10 +106,6 @@ main {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.info-card .icon {
-  font-size: 2.6rem;
-}
-
 .info-card span {
   font-size: 1.05rem;
   font-weight: bold;
