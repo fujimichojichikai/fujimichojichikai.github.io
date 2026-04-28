@@ -2,25 +2,103 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>富士見町自治会 お知らせ</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>富士見町自治会</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>富士見町自治会 お知らせ</h1>
 
-  <p>
-    このページは、相模原市中央区富士見町自治会が、
-    会員向けのお知らせ・回覧板情報・地域活動の進捗を公開するために運用しています。
-  </p>
+<header class="site-header">
+  <div class="header-inner">
+    <h1>富士見町自治会</h1>
+    <p>相模原市中央区富士見町自治会の情報ページです。</p>
+  </div>
+</header>
 
-  <h2>現在のお知らせ</h2>
-  <p>富士見町自治会の公式情報ページを試験運用中です。</p>
+<main>
 
-  <h2>このサイトについて</h2>
-  <p>
-    紙の回覧板は従来どおり継続します。
-    このサイトは、回覧板情報を後から確認したい方や、
-    自治会活動の進捗を確認したい方向けの補助的な情報ページです。
-  </p>
+  <section class="popular-section">
+    <div class="section-title">
+      <span class="en">Popular Information</span>
+      <h2>よく利用される情報</h2>
+    </div>
+
+    <div class="card-grid">
+      <a href="news.html" class="info-card">
+        <div class="icon">📢</div>
+        <span>お知らせ</span>
+      </a>
+
+      <a href="kairan.html" class="info-card">
+        <div class="icon">📄</div>
+        <span>回覧板情報</span>
+      </a>
+
+      <a href="gomi.html" class="info-card">
+        <div class="icon">🗑️</div>
+        <span>ごみ集積所</span>
+      </a>
+
+      <a href="bosai.html" class="info-card">
+        <div class="icon">⛑️</div>
+        <span>防災・避難情報</span>
+      </a>
+
+      <a href="schedule.html" class="info-card">
+        <div class="icon">📅</div>
+        <span>年間予定</span>
+      </a>
+
+      <a href="contact.html" class="info-card">
+        <div class="icon">☎️</div>
+        <span>連絡先</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="news-area">
+    <div class="news-box">
+      <div class="section-title small">
+        <span class="en">News</span>
+        <h2>新着情報</h2>
+      </div>
+
+      <ul class="news-list">
+        <li>
+          <time datetime="2026-04-28">4月28日</time>
+          <a href="#">ごみ集積所の不法投棄ごみが回収されていることを確認しました</a>
+        </li>
+        <li>
+          <time datetime="2026-04-21">4月21日</time>
+          <a href="#">市民地域清掃の実施予定について回答しました</a>
+        </li>
+        <li>
+          <time datetime="2026-04-18">4月18日</time>
+          <a href="#">中央地区自治会連合会 4月自治会長会議に出席しました</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="news-box">
+      <div class="section-title small">
+        <span class="en">Topics</span>
+        <h2>トピックス</h2>
+      </div>
+
+      <ul class="topic-list">
+        <li><a href="#">市民地域清掃について</a></li>
+        <li><a href="#">ごみ集積所の利用について</a></li>
+        <li><a href="#">富士見町自治会の防災情報</a></li>
+        <li><a href="#">回覧板情報の掲載について</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 富士見町自治会</p>
+</footer>
+
 </body>
 </html>
