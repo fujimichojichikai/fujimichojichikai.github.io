@@ -46,6 +46,28 @@ a {
   font-size: 1rem;
 }
 
+.breadcrumb {
+  margin-top: 6px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.breadcrumb a {
+  color: var(--green-dark);
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.breadcrumb a:hover {
+  color: var(--green);
+}
+
+.breadcrumb .separator {
+  margin: 0 8px;
+  color: #777;
+}
+
 main {
   max-width: 1080px;
   margin: 0 auto;
