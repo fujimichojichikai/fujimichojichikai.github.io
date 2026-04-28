@@ -105,6 +105,7 @@ main {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+.info-card img,
 .info-icon {
 width: 72px;
 height: 72px;
@@ -113,6 +114,7 @@ max-height: 72px;
 object-fit: contain;
 display: block;
 }
+
 .info-card span {
   font-size: 1.05rem;
   font-weight: bold;
@@ -204,14 +206,13 @@ display: block;
   .info-card {
     min-height: 120px;
   }
-
+.info-card img,
 .info-icon {
 width: 64px;
 height: 64px;
 max-width: 64px;
 max-height: 64px;
 }
-
 
   .info-card span {
     font-size: 0.95rem;
@@ -312,4 +313,24 @@ max-height: 64px;
 
 .button-link.secondary:hover {
   background: #d8edcf;
+}
+
+@media (max-width: 760px) {
+  .info-icon {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+  .button-link {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.info-icon {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  display: block;
 }
