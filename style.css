@@ -207,6 +207,19 @@ display: block;
 
 /* スマホ対応 */
 @media (max-width: 760px) {
+  .sub-page main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-page .content-section {
+    order: 1;
+  }
+
+  .sub-page .popular-section {
+    order: 2;
+    margin-top: 24px;
+  }
   .site-header h1 {
     font-size: 1.6rem;
   }
