@@ -410,3 +410,12 @@ max-height: 64px;
     row-gap: 2px;
   }
 }
+
+.notice-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
