@@ -413,7 +413,7 @@ max-height: 64px;
 
 .notice-image {
   display: block;
-  max-width: 100%;
+  width: min(100%, 480px);
   height: auto;
   margin-top: 12px;
   border-radius: 8px;
